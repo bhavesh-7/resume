@@ -1,0 +1,112 @@
+%-------------------------
+% Resume in Latex
+% Author      : Bhavesh Mishra
+% License     : MIT
+% Know author : bhaveshmishra.dev
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Times New Roman-like font, gives a more royal and clean appearance
+\usepackage{mathptmx} 
+\renewcommand{\familydefault}{\sfdefault}
+
+% Top Margin and Pagenumber
+\geometry{margin=0.4in}
+\pagestyle{empty}
+
+% Formatting for section titles
+\definecolor{gray}{gray}{0.4}
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries\color{gray}}{}{0em}{}
+
+% Adjust spacing
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0em}
+
+% Remove link borders
+\hypersetup{
+	colorlinks=false,
+	pdfborder={0 0 0}
+}
+
+% RESUME STARTS HERE
+% Make sure the resume is of a single page.
+\begin{document}
+	%
+	% Header --------------------------------------------------------------------------------------------------------------------------
+	\begin{center}
+		{\LARGE \textbf{Your Name}} \\ \vspace{5pt}
+		\small \href{tel:+91XXXXXXXXXX}{+91-XXXXXXXXXX}  $\vert$ \href{mailto:abc@pqr.xyz}{apc@pqr.xyz} $\vert$  \href{https://linkedin.com/in/USERNAME}{LinkedIn/USERNAME} $\vert$
+		\href{https://github.com/USERNAME}{GitHub/USERNAME} $\vert$
+		\href{https://xyz.com}{PORTFOLIO} %if any
+	\end{center}
+	\vspace{-0.5cm}
+	%
+	% Objective ------------------------------------- About Yourself
+	\section*{About}
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri.
+	\vspace{-0.3cm}
+	%
+	% Education --------------------------------------- If experienced? Move Education section above Skills section
+	\section*{Education}
+	\textbf{Course Name} \\
+	College/Uni \hfill <Start-Date> - <End-Date> \\
+	\textit{CGPA: x.xx}
+	\vspace{-0.3cm}
+	%
+	% Experience ----------------------- For Fresehers- Add more projects and remove Experience section
+	\section*{Experience}
+	\textbf{Job Role}\\
+	<Company Name> \hfill <Start-Date> - <End-Date>\\
+	- Developed Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.\\
+	- Collaborated Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.\\
+	- Contributed Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.\\
+	- Conducted Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.\\
+	- Assisted Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. \\
+	
+	\textbf{Job Role}\\
+	<Company Name> \hfill <Start-Date> - <End-Date>\\
+	- Developed Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.\\
+	- Collaborated Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.\\
+	- Contributed Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.\\
+	- Conducted Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.\\
+	- Assisted Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+	\vspace{-0.3cm}
+	%
+	% Projects -------------------------------- With more experience?, Add projects in your portfolio
+	\section*{Projects}
+	\textbf{Lorem ipsum dolor} - (tech-stack)\\
+	- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.\\
+	- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.\\
+	- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. \\
+	- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. \\
+	- \href{https://github.com/Lorem/lorem-ipsum-dolor}{GitHub Repo}
+	
+	\textbf{Lorem ipsum dolor} - (tech-stack)\\
+	- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.\\
+	- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.\\
+	- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. \\
+	- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. \\
+	- \href{https://github.com/Lorem/lorem-ipsum-dolor}{GitHub Repo}
+	\vspace{-0.3cm}
+	%
+	% Skills ----------------------------------------- Add your tech stack
+	\section*{Skills}
+	\textbf{Programming Languages:} Java, Kotlin \\
+	\textbf{Frameworks:} Astro, Node.js \\
+	\textbf{Databases:} MySQL, PostgreSQL \\
+	\textbf{Developer Tools:} Git, GitHub, Vercel \\
+	\textbf{Libraries:} React, Pandas, NumPy \\
+	\textbf{Operating Systems:} Fedora
+	%
+\end{document}
+
+% Best of luck <3
