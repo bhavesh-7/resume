@@ -6,7 +6,7 @@ This repository contains a LaTeX resume template (`resume.tex`) and its correspo
 ``` plaintext
 .
 ├── Sample     
-    └── resume.tex
+    └── resume.pdf
 ├── Source
     └── resume.tex
 ├── README.md
